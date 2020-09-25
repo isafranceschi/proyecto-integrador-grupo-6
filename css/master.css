@@ -1,22 +1,25 @@
 *{
-    margin: 0%;
-    padding: 10px;
     box-sizing: border-box;
+    margin: 0;
     color: white;
 }
 
 body{
-    background: #141414;
+    background: black;
     font-family: 'open-sans',sans-serif;
 }
 .contenedor{
-    width: 90%;
+    width: 100%;
     margin: auto;
+    background-color: black;
+    position: fixed;
+    z-index: 100%;
+    padding: 10px;
 }
 
-header{
-    padding: 30px 0;
 
+header{
+    position: fixed;
 }
 
 header .contenedor{
@@ -31,6 +34,7 @@ header .logo{
     font-family: 'bebas neue',cursive;
     font-weight: normal;
     font-size: 40px;
+   
 
 }
 
@@ -49,7 +53,7 @@ header nav a.activo{
     font-size: 16px;
     min-height: 450px;
     color: #fff;
-    background-image: url("../img/sala-de-estar.jpg");
+    background-image: url("../img/televisor.jpg");
     background-position: center;
     background-size: cover;
     margin-bottom: 50px;
@@ -57,6 +61,11 @@ header nav a.activo{
     align-items: end;
 }
 
+.contenedor .titulo{
+    background-color: crimson;}
+.contenedor .descripcion{
+    background-color: crimson;
+}
 
 
 .principal .titulo{
