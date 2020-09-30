@@ -19,6 +19,7 @@ header{
     position: fixed;
     background-color: rgba(191, 191, 191, 0.5);   
     padding-bottom:15px;
+    margin-bottom: 50px;
 }
 header h1{
     color: red;
@@ -40,53 +41,37 @@ nav a:active{
 }
 /* menu de navegacion */
 
-.tituloPelicula{
-    color: white;
-margin-top: 150px;
-display: flex;
-justify-content: start;
-width: 80%;
-}
 
-.tituloPelicula:hover{
-    color: red;
-}
-
-.audiovisual{
+/* contenidos */
+.contenido{
+    width: 90%;
     display: flex;
+    flex-direction: column ;
     margin-top: 50px;
-    height: 70vh;
-    width: 80%;
+    margin-bottom: 50px;
+
+}
+.contenido h1{
+    color: white;
+    margin-top: 70px;
+    
+}
+.contenido h2{
+    color: white;
+}
+.posters {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     
 }
-.audiovisual img{
-    height: 100%;
+.posters a{
+    max-width:18%;
 }
 
-.trailer iframe{
-    min-width: 100%;
-    min-height: 100%;
-}
-.audiovisual .trailer{
-    height: 100%;
+.posters a img{
+    width: 100%;
 }
 
-.resumen{
-    color: white;
-    width: 80%;
-    margin-top: 100px;
-}
 
-footer{
-    margin-top: 100px;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(191, 191, 191, 0.5);   
-   
-}
-footer p{
-    color: white;
-    
-}
+/* contenidos */

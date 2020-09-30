@@ -67,6 +67,9 @@ nav a:active{
     padding-right: 20px;
     padding-left: 20px;
 }
+.banner button:hover{
+color: red;
+}
 /* banner */
 
 
@@ -91,9 +94,12 @@ nav a:active{
 .posters a{
     max-width:18%;
 }
+
 .posters a img{
     width: 100%;
 }
+
+
 /* contenidos */
 footer{
     margin-top: 100px;
@@ -103,9 +109,9 @@ footer{
     background-color: rgba(191, 191, 191, 0.5);   
    
 }
+
 footer p{
-    color: white;
-    
+    color: white; 
 }
 
 
