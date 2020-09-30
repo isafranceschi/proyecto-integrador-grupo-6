@@ -78,6 +78,39 @@ width: 80%;
     margin-top: 100px;
 }
 
+.contenido{
+    width: 90%;
+    display: flex;
+    flex-direction: column ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.contenido h1{
+    color: white;
+    margin-top: 70px;
+    
+}
+.contenido h2{
+    color: white;
+}
+.posters {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.posters a{
+    max-width:18%;
+}
+
+.posters a img{
+    width: 100%;
+}
+
+
+/* contenidos */
+
 footer{
     margin-top: 100px;
     width:100%;
