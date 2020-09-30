@@ -85,6 +85,8 @@ color: red;
 .contenido h1{
     color: white;
 }
+
+
 .posters {
     width: 100%;
     display: flex;
@@ -94,6 +96,7 @@ color: red;
 .posters a{
     max-width:18%;
 }
+
 
 .posters a img{
     width: 100%;
@@ -113,6 +116,9 @@ footer{
 footer p{
     color: white; 
 }
+
+
+
 
 
 
