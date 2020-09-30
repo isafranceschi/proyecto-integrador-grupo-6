@@ -56,6 +56,9 @@ nav a:active{
     margin-top: 70px;
     
 }
+.contenido h1:hover{
+    color: red;
+}
 .contenido h2{
     color: white;
 }
