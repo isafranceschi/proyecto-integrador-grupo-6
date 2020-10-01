@@ -123,3 +123,17 @@ footer p{
     color: white;
     
 }
+
+/* moobile */
+@media(max-width:600px){
+
+    .audiovisual{
+        flex-direction: column;
+    }
+
+    iframe{
+        max-width: 200px;
+    }
+
+}
+/* mobile */
