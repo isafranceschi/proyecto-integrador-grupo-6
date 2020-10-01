@@ -118,6 +118,24 @@ footer p{
 }
 
 
+@media(max-width:768px){
+    .tablet{
+        display: none;
+    }
+    .contenido .posters a{
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:375px){
+    .movile{
+        display: none;
+    }
+}
+
+
 
 
 
