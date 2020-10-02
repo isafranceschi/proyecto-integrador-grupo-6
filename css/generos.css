@@ -39,6 +39,14 @@ nav a:hover{
 nav a:active{
     color: red;
 }
+
+.navCelu{
+    display: none;
+}
+
+.hamburguesa{
+    max-width: 50px;
+}
 /* menu de navegacion */
 
 
@@ -78,3 +86,52 @@ nav a:active{
 
 
 /* contenidos */
+
+
+
+
+/* moobile */
+@media(max-width:600px){
+
+    .audiovisual{
+        flex-direction: column;
+    }
+
+    iframe{
+        max-width: 200px;
+    }
+
+     .movile{
+            display: none;
+        } 
+    
+    .posters a{
+            min-width: 100%;
+        }
+    
+     header .logo{
+            margin-left: 20px;
+        }
+    
+    header{
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+    
+    .banner h1{
+            font-size: 40px;
+        }
+    
+     header nav{
+            display: none;
+        }
+    
+     .navCelu{
+            display: block;
+            margin-right: 30px;
+            
+        }
+    
+    }
+/* mobile */
