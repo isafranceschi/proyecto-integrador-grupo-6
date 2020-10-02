@@ -64,7 +64,7 @@ nav a:active{
 }
 .banner h1{
     color: white;
-    font-size: 100px;
+    font-size: 4rem;
 }
 .banner button{
     font-size: larger;
@@ -171,7 +171,7 @@ footer p{
     }
 
     .banner h1{
-        font-size: 40px;
+        font-size: 1.2rem;
     }
 
     header nav{
