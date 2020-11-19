@@ -103,13 +103,14 @@ color: red;
     
 }
 
+
 .posters a{
     max-width:18%;
 }
-
 .posters a img{
     width: 100%;
 } 
+
 
 
 /* contenidos */
@@ -182,6 +183,10 @@ footer p{
         display: block;
         margin-right: 30px;
         
+    }
+
+    .series{
+        width: 50%;
     }
 
 }
