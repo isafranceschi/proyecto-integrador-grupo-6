@@ -6,7 +6,7 @@ fetch("https://api.themoviedb.org/3/movie/popular?api_key=704bd3935947752adbb2e6
     var peliculas = datos.results
     console.log(peliculas);
 
-    for (var i = 0; i < peliculas.length; i++) {
+    for (var i = 0; i < 5; i++) {
       document.querySelector(".posters").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + peliculas[i].poster_path + '" alt=""></a>'
     }
   })
@@ -16,11 +16,11 @@ fetch("https://api.themoviedb.org/3/movie/popular?api_key=704bd3935947752adbb2e6
   .then(function(respuesta) {
     return respuesta.json()
   })
-  .then(function(datos) {
+      .then(function(datos) {
     var series = datos.results
     console.log(series);
 
-    for (var i = 0; i < series.length; i++) {
+       for (var i = 0; i < 5; i++) {
       document.querySelector(".series").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + series[i].poster_path + '" alt=""></a>'
     }
   })
