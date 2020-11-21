@@ -8,20 +8,20 @@ window.addEventListener('load',function(){
         console.log(masvaloradas2);
     
         for (var i = 0; i < 10; i++) {
-          document.querySelector(".peliculas1").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + masvaloradas2[i].poster_path + '" alt=""></a>'
+          document.querySelector(".peliculas1").innerHTML += `<a href='DetallePelicula.html?id=${masvaloradas2[i].id}'   class='mobile ' ><img src='https://image.tmdb.org/t/p/w500${masvaloradas2[i].poster_path}'   alt='${masvaloradas2[i].title}' /></a>`
         }
       })
     
-      fetch("https://api.themoviedb.org/3/movie/latest?api_key=239cb21a3c20983f2c69678890e9289a&language=es-ES")
+      fetch("https://api.themoviedb.org/3/movie/popular?api_key=239cb21a3c20983f2c69678890e9289a&language=es-ES&page=1")
       .then(function(respuesta) {
         return respuesta.json()
       })
       .then(function(datos) {
-        var ultimoslanzamientos2 = datos.results
-        console.log(ultimoslanzamientos2);
+        var populares2 = datos.results
+        console.log(populares2);
     
         for (var i = 0; i < 10; i++) {
-          document.querySelector(".peliculas2").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + ultimoslanzamientos2[i].poster_path + '" alt=""></a>'
+          document.querySelector(".peliculas2").innerHTML += `<a href='DetallePelicula.html?tipoid=${populares2[i].id}'   class='mobile ' ><img src='https://image.tmdb.org/t/p/w500${populares2[i].poster_path}'   alt='${populares2[i].title}' /></a>`
         }
       })
       
@@ -34,7 +34,7 @@ window.addEventListener('load',function(){
         console.log(trending2);
     
         for (var i = 0; i < 10; i++) {
-          document.querySelector(".peliculas3").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + trending2[i].poster_path + '" alt=""></a>'
+          document.querySelector(".peliculas3").innerHTML += `<a href='DetallePelicula.html?id=${trending2[i].id}'   class='mobile ' ><img src='https://image.tmdb.org/t/p/w500${trending2[i].poster_path}'   alt='${trending2[i].title}' /></a>`
         }
       })
     
