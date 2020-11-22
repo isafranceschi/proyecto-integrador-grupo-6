@@ -84,26 +84,17 @@ color: red;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
-
 }
 .contenido h1{
     color: white;
 }
 
-
-.posters {
-    width: 100%;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-}
+/* esto modifica loq ue trae la api en la paghina del inicio*/
 .series {
     width: 100%;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
 }
 .series a{
     max-width:70%;
@@ -111,15 +102,43 @@ color: red;
 .series a img{
     width: 100%;
 } 
-
-
+.posters {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
+}
 .posters a{
     max-width:70%;
 }
 .posters a img{
     width: 100%;
 } 
+.estrenos {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
+}
+.estrenos a{
+    max-width:70%;
+}
+.estrenos a img{
+    width: 100%;
+} 
 
+.ultimas {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;    
+}
+.ultimas a{
+    max-width:70%;
+}
+.ultimas a img{
+    width: 100%;
+} 
 
 
 
