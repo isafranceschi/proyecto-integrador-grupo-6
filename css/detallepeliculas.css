@@ -55,6 +55,10 @@ justify-content: start;
 width: 80%;
 }
 
+.tituloPelicula h1 {
+    color: white;
+}
+
 .tituloPelicula:hover{
     color: red;
 }

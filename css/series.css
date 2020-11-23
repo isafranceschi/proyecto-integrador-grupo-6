@@ -3,9 +3,6 @@
 }
 
 body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: black;
     align-items: center;
     margin: 0px;
@@ -19,8 +16,7 @@ header{
     align-items:center;
     position: fixed;
     background-color: rgba(191, 191, 191, 0.5);   
-    padding: bottom 13%;
-    
+    padding-bottom:15px;
 }
 header h1{
     color: red;
@@ -85,9 +81,7 @@ color: red;
 
 /* contenidos */
 .contenido{
-    width: 90%;
-    display: flex;
-    flex-direction: column ;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -97,20 +91,51 @@ color: red;
 }
 
 
-.posters {
+
+.series1 {
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 }
-.posters a{
-    max-width:18%;
+.series1 a{
+    max-width: 70%;
 }
-
-
-.posters a img{
+.series1 a img{
     width: 100%;
 }
+
+.series2 {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.series2 a{
+    max-width: 70%;
+}
+.series2 a img{
+    width: 100%;
+}
+
+.series3 {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.series3 a{
+    max-width: 70%;
+}
+.series3 a img{
+    width: 100%;
+}
+
+
+
 
 /* contenidos */
 footer{
@@ -126,9 +151,6 @@ footer p{
     color: white; 
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width:768px){
-=======
 /* tablet */
 @media only screen and (max-width: 768px){
 
@@ -136,7 +158,6 @@ footer p{
         text-align: center;
     }
 
->>>>>>> 4c778c23380e4a5fff6eca06c63676979068bcc5
     .tablet{
         display: none;
     }
@@ -144,15 +165,11 @@ footer p{
     .contenido .posters a{
         width: 100%;
     }
-<<<<<<< HEAD
-    
-=======
 
     .posters a{
         max-width: 100%;
     }
 
->>>>>>> 4c778c23380e4a5fff6eca06c63676979068bcc5
 }
 /* tablet */
 
@@ -160,10 +177,6 @@ footer p{
 /* moobile */
 @media only screen and (max-width: 420px){
 
-<<<<<<< HEAD
-@media only screen and(max-width:420px){
-=======
->>>>>>> 4c778c23380e4a5fff6eca06c63676979068bcc5
     .movile{
         display: none;
     } 
@@ -189,30 +202,16 @@ footer p{
     header nav{
         display: none;
     }
-<<<<<<< HEAD
-    .box {
-        width: 100vw;
-        height: 100vh;
-=======
 
     .navCelu{
         display: block;
         margin-right: 30px;
         
->>>>>>> 4c778c23380e4a5fff6eca06c63676979068bcc5
+    }
+
+    .series{
+        width: 50%;
     }
 
 }
 /* mobile */
-
-
-
-
-
-
-
-
-
-
-
-

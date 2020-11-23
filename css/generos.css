@@ -83,8 +83,48 @@ nav a:active{
 .posters a img{
     width: 100%;
 }
+.generop1 {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.generop1 a{
+    max-width: 70%;
+}
+.generop1 a img{
+    width: 100%;
+}
 
+.peliculas2 {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.peliculas2 a{
+    max-width: 70%;
+}
+.peliculas2 a img{
+    width: 100%;
+}
 
+.peliculas3 {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.peliculas3 a{
+    max-width: 70%;
+}
+.peliculas3 a img{
+    width: 100%;
+
+}
 /* contenidos */
 
 
