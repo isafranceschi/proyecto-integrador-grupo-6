@@ -83,17 +83,17 @@ nav a:active{
 .posters a img{
     width: 100%;
 }
-.generop1 {
+.generoPeliculas {
     width: 100%;
     display: grid;
     justify-content: space-between;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 }
-.generop1 a{
+.generoPeliculas a{
     max-width: 70%;
 }
-.generop1 a img{
+.generoPeliculas a img{
     width: 100%;
 }
 
