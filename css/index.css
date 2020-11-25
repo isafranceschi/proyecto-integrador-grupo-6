@@ -232,38 +232,31 @@ color: red;
 
     .movile{
         display: none;
+        
     } 
 
-    .posters a{
-        min-width: 100%;
-    }
-
-    header .logo{
-        margin-left: 20px;
-    }
-
-    header{
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-    }
-
     .banner h1{
-        font-size: 1.2rem;
+        text-align: center;
     }
 
-    header nav{
-        display: none;
+    .contenido .posters a{
+        width: 100%;
     }
 
-    .navCelu{
-        display: block;
-        margin-right: 30px;
-        
+    .posters a{
+        max-width: 100%;
     }
-
-    .series{
-        width: 50%;
+    .series {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;   
+    }
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr ;    
     }
 
 }
