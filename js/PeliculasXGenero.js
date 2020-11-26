@@ -14,7 +14,9 @@ fetch (`https://api.themoviedb.org/3/discover/movie?api_key=239cb21a3c20983f2c69
     console.log(PeliculasXGenero);
 
        for (var i = 0; i < PeliculasXGenero.length; i++) {
-      document.querySelector(".generoPeliculas").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + PeliculasXGenero[i].poster_path + '" alt=""></a>'
+      document.querySelector(".PeliculasXGenero").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + PeliculasXGenero[i].poster_path + '" alt=""></a>'
     }
   })
+ 
+
 })
