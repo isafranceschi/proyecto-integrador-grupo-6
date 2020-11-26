@@ -81,6 +81,16 @@ color: red;
 /* banner */
 
 
+/* contenidos */
+.contenido{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.contenido h1{
+    color: white;
+}
 
 @media (max-width: 480px) {
   .navCelu{
@@ -130,6 +140,98 @@ color: red;
   margin-top: 10px;
   }
   
+<<<<<<< HEAD
+=======
+  /*footer*/
+
+
+/* tablet */
+@media only screen and (max-width: 768px){
+
+    .banner h1{
+        text-align: center;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .contenido .posters a{
+        width: 100%;
+    }
+
+    .posters a{
+        max-width: 100%;
+    }
+    .series {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr ;   
+    }
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
+
+
+}
+/* tablet */
+
+
+/* moobile */
+@media only screen and (max-width: 420px){
+
+    .movile{
+        display: none;
+        
+    } 
+
+    .banner h1{
+        text-align: center;
+    }
+
+    .contenido .posters a{
+        width: 100%;
+    }
+
+    /*.posters a{
+        max-width: 100%;
+    }*/
+
+    .series {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;   
+    }
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr ;    
+    }
+    .estrenos{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;   
+    }
+    .ultimas{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;   
+    }
+
+}
+/* mobile */
+>>>>>>> 5340f1e6da313d3c9761b96d6596a5e114fc7e7c
 
 
 
