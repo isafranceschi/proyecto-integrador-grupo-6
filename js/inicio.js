@@ -11,7 +11,7 @@ window.onload = function(){
       // console.log(array)
       for (serie of array) {
         var li = `
-       <a href="series.html?idPeli=`+ serie.id +`>
+       <a href="detalleSerie.html?idPeli=`+ serie.id +`>
           <li>
               <div class="uk-panel">
                   <img src="https://image.tmdb.org/t/p/original`+serie.poster_path+`" alt="">
@@ -41,7 +41,7 @@ window.onload = function(){
       console.log(array)
       for (serie of array) {
         var li = `
-       <a href="series.html?idPeli=`+ serie.id +`>
+       <a href="detalleSerie.html?idPeli=`+ serie.id +`>
           <li>
               <div class="uk-panel">
                   <img src="https://image.tmdb.org/t/p/original`+serie.poster_path+`" alt="">
@@ -68,7 +68,7 @@ fetch("https://api.themoviedb.org/3/trending/movie/week?api_key=239cb21a3c20983f
   console.log(array)
   for (serie of array) {
     var li = `
-   <a href="series.html?idPeli=`+ serie.id +`>
+   <a href="DetallePelicula.html?idPeli=`+ serie.id +`>
       <li>
           <div class="uk-panel">
               <img src="https://image.tmdb.org/t/p/original`+serie.poster_path+`" alt="">
