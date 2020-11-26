@@ -48,10 +48,10 @@ nav a:active{
 
 /* banner */
 .banner{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/pibe.jpg);
-    background-size: cover;
+    width: 15vw;
+    height: 15vh;
+   
+   
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
