@@ -21,7 +21,7 @@ window.addEventListener('load',function(){
         console.log(populares2);
     
         for (var i = 0; i < 10; i++) {
-          document.querySelector(".peliculas2").innerHTML += `<a href='DetallePelicula.html?tipoid=${populares2[i].id}'   class='mobile ' ><img src='https://image.tmdb.org/t/p/w500${populares2[i].poster_path}'   alt='${populares2[i].title}' /></a>`
+          document.querySelector(".peliculas2").innerHTML += `<a href='DetallePelicula.html?id=${populares2[i].id}'   class='mobile ' ><img src='https://image.tmdb.org/t/p/w500${populares2[i].poster_path}'   alt='${populares2[i].title}' /></a>`
         }
       })
       
