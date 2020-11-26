@@ -5,7 +5,7 @@ window.addEventListener('load', function(){
     var name = url.get ('name')
     console.log(id);
     console.log(name)
-  fetch (`https://api.themoviedb.org/3/discover/tv?api_key=239cb21a3c20983f2c69678890e9289a&with_gender=${id}`)
+  fetch (`https://api.themoviedb.org/3/discover/tv?api_key=239cb21a3c20983f2c69678890e9289a&with_genres=${id}`)
   .then(function(respuesta) {
     return respuesta.json()
   })

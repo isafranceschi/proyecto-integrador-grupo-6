@@ -13,7 +13,7 @@ var generoPeliculas = document.querySelector ('.generoPeliculas')
  </li>`
     })
     })
-    var generoSeries= document.querySelector ('.generoSeries')
+  var generoSeries= document.querySelector ('.generoSeries')
 
   fetch('https://api.themoviedb.org/3/genre/tv/list?api_key=239cb21a3c20983f2c69678890e9289a&language=es-Es')
   .then(function(respuesta) {
