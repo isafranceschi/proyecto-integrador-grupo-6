@@ -79,25 +79,184 @@ nav a:active{
 color: red;
 }
 /* banner */
+.uk-button-default{
+    color: tomato ;
+}
 
+.uk-button {
+    color: tomato;
+}
 
-/* contenidos */
-.contenido{
+body{
+    margin: 0px;
+  }
+  /* header navegador */
+  .contenedorTitulos{
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-}
-.contenido h1{
-    color: white;
-}
-
-@media (max-width: 480px) {
-  .navCelu{
-      display: flex
-  };
-
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 3;
+    border-bottom: 2px solid #0C2440;
+    flex-direction: row;
+  
+  }
+  
+  .contenedorBuscador {
+  position: absolute;
+  right: 4vh;
+  top: 3vh;
+  border: 1px solid gray;
+  z-index: 9;
+  }
+  
+  .menu{
+  
+  }
+  
+  
+  @media (min-width: 480px) {
+  
+    .contenedorTitulos{
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      z-index: 3;
+      border-bottom: none;
+      flex-direction: row;
+  
+    }
+  
+    .menu{
+      position: relative !important;
+      top: 0 !important;
+      transform: none !important;
+      left: 0 !important;
+    }
+  
+    .contenedorBuscador {
+    position: relative;
+    right: 0vh;
+    top: 0vh;
+    border: 1px solid gray;
+    z-index: 9;
+    }
+  
+    .hero{
+      height: 100vh;
+      background-image: url('../img/Hero.jpg');
+      background-size: cover;
+      background-repeat: none;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hero h1{
+      font-family: sans-serif;
+      color: white;
+      font-size: 5em;
+      font-weight: bolder;
+      line-height: 10px;
+  
+    }
+  
+    .hero p{
+      font-family: sans-serif;
+      color: #C4CBD2;
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  
+  
+  .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  
+  .links{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    border: 2px solid blue;
+    position: absolute;
+    left: 15vh;
+  }
+  
+  .nav-logo{
+    max-width: 75px;
+  }
+  
+  .links a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .buscar{
+    border-radius: 40px;
+    height: 4vh;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .iconoBuscador{
+    color:white;
+      height: 8vh;
+  }
+  
+  #formlogin{
+    display: flex;
+    align-items: center;
+   left: auto;
+  }
+  
+  
+  
+  
   /* estilos del body */
+  
+  .hero{
+    height: 100vh;
+    background-image: url('../img/Hero.jpg');
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: bolder;
+    line-height: 10px;
+  }
+  
+  .hero p{
+    font-family: sans-serif;
+    color: #C4CBD2;
+    font-size: 3em;
+    font-weight: bold;
+  }
   
   .Series{
     text-align: center;
@@ -106,6 +265,7 @@ color: red;
   }
   
   .sliders{
+  
     background-color: black;
   
   }
@@ -114,10 +274,10 @@ color: red;
   
   footer{
     width: 100%;
-    color: #0C2440;
+    color: white;
     height: 80px;
     display: flex;
-    background-color: white;
+    background-color:black;
     justify-content: space-around;
     align-items: center;
     margin-top: 10px;
@@ -134,113 +294,8 @@ color: red;
   
   .sliders h1{
     font-family: sans-serif;
-    color: #0E447A;
+    color:white;
     font-size: 2em;
     font-weight: lighter;
   margin-top: 10px;
   }
-  
-<<<<<<< HEAD
-=======
-  /*footer*/
-
-
-/* tablet */
-@media only screen and (max-width: 768px){
-
-    .banner h1{
-        text-align: center;
-    }
-
-    .tablet{
-        display: none;
-    }
-
-    .contenido .posters a{
-        width: 100%;
-    }
-
-    .posters a{
-        max-width: 100%;
-    }
-    .series {
-        width: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr 1fr ;   
-    }
-    .posters {
-        width: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr 1fr;    
-    }
-
-
-}
-/* tablet */
-
-
-/* moobile */
-@media only screen and (max-width: 420px){
-
-    .movile{
-        display: none;
-        
-    } 
-
-    .banner h1{
-        text-align: center;
-    }
-
-    .contenido .posters a{
-        width: 100%;
-    }
-
-    /*.posters a{
-        max-width: 100%;
-    }*/
-
-    .series {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr;   
-    }
-    .posters {
-        width: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr ;    
-    }
-    .estrenos{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr;   
-    }
-    .ultimas{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr;   
-    }
-
-}
-/* mobile */
->>>>>>> 5340f1e6da313d3c9761b96d6596a5e114fc7e7c
-
-
-
-
-
-
-
-
-
-
-
-
