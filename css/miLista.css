@@ -1,0 +1,322 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    align-items: center;
+    margin: 0px;
+}
+
+/* menu de navegacion */
+
+.buttoncelu{
+  display: none;
+}
+header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(191, 191, 191, 0.5);   
+    padding-bottom:15px;
+    position: fixed;
+    z-index: 1;
+}
+header h1{
+    color: red;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav a:active{
+    color: red;
+}
+
+.navCelu{
+    display: none;
+}
+
+.hamburguesa{
+    max-width: 50px;
+}
+/* menu de navegacion */
+
+/* banner */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/pibe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+.banner h1{
+    color: white;
+    font-size: 4rem;
+}
+.banner button{
+    font-size: larger;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.banner button:hover{
+color: red;
+}
+/* banner */
+.uk-button-default{
+    color: tomato ;
+}
+
+.uk-button {
+    color: tomato;
+}
+
+body{
+    margin: 0px;
+  }
+
+  .subtitulo{
+    color: white;
+  }
+  /* header navegador */
+  .contenedorTitulos{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 3;
+    border-bottom: 2px solid #0C2440;
+    flex-direction: row;
+  
+  }
+  
+  .contenedorBuscador {
+  position: absolute;
+  right: 4vh;
+  top: 3vh;
+  border: 1px solid gray;
+  z-index: 9;
+  }
+
+  .button{
+    color: red;
+  }
+  
+  
+  .navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  
+  .links{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    border: 2px solid blue;
+    position: absolute;
+    left: 15vh;
+  }
+  
+  .nav-logo{
+    max-width: 75px;
+  }
+  
+  .links a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  .buscar{
+    border-radius: 40px;
+    height: 4vh;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .iconoBuscador{
+    color:white;
+      height: 8vh;
+  }
+  
+  #formlogin{
+    display: flex;
+    align-items: center;
+   left: auto;
+  }
+  
+  
+  
+  
+  /* estilos del body */
+  
+  .hero{
+    height: 100vh;
+    background-image: url('../img/Hero.jpg');
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: bolder;
+    line-height: 10px;
+  }
+  
+  .hero p{
+    font-family: sans-serif;
+    color: #C4CBD2;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .Series{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  
+  .sliders{
+  
+    background-color: black;
+  
+  
+  }
+  
+  /* estilos del footer */
+  
+  footer{
+    width: 100%;
+    color: white;
+    height: 80px;
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 2px solid #0C2440;
+  }
+  
+  .logo img{
+    max-width: 75px;
+  }
+  
+  .logo{
+    margin-left: 20px;
+  }
+  
+  .sliders h1{
+    font-family: sans-serif;
+    color:white;
+    font-size: 2em;
+    font-weight: lighter;
+  margin-top: 10px;
+  }
+
+
+
+
+
+  @media (max-width: 480px) {
+   
+    .logo{
+      margin-top: 20px;
+    }
+
+    header{
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items:center;
+      background-color: rgba(191, 191, 191, 0.5);   
+      padding-bottom:15px;
+      position: fixed;
+      z-index: 1;
+  }
+    
+    .navegador{
+      display: none;
+    }
+    .navCelu{display: flex;}
+
+    .banner h1{
+      color: white;
+      font-size: 2rem;
+  }
+    
+  
+    .contenedorTitulos{
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      z-index: 3;
+      border-bottom: none;
+      flex-direction: row;
+  
+    }
+  
+    .menu{
+      position: relative !important;
+      top: 0 !important;
+      transform: none !important;
+      left: 0 !important;
+    }
+  
+    .contenedorBuscador {
+    position: relative;
+    right: 0vh;
+    top: 0vh;
+    border: 1px solid gray;
+    z-index: 9;
+    }
+  
+   .hamburguesa{
+    max-width: 37px;
+    margin-right: 17px;
+   }
+
+
+    .logo img{
+      max-width: 40px;
+    }
+  }

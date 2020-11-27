@@ -113,8 +113,45 @@ nav a:active{
 
 /* contenidos */
 
+@media only screen and (max-width: 768px){
+
+    .banner h1{
+        text-align: center;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .contenido .posters a{
+        width: 100%;
+    }
+
+    .posters a{
+        max-width: 100%;
+    }
+    .series {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr ;   
+    }
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
 
 
+}
+a.mobile{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
 
 /* moobile */
 @media(max-width:600px){

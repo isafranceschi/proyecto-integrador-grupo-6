@@ -169,7 +169,19 @@ footer p{
     .posters a{
         max-width: 100%;
     }
-    .series {
+    .series1 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr ;   
+    }
+    .series2 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr ;   
+    }
+    .series3 {
         width: 100%;
         display: grid;
         justify-content: space-between;
@@ -195,6 +207,7 @@ footer p{
         
     } 
 
+
     .banner h1{
         text-align: center;
     }
@@ -206,11 +219,23 @@ footer p{
     .posters a{
         max-width: 100%;
     }
-    .series {
+    .series1 {
         width: 100%;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: 1fr;   
+        grid-template-columns: 1fr 1fr;   
+    }
+    .series2 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr ;   
+    }
+    .series3 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;   
     }
     .posters {
         width: 100%;

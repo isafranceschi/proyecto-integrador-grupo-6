@@ -44,9 +44,11 @@ nav a:active{
     display: none;
 }
 
+
 .hamburguesa{
     max-width: 50px;
 }
+
 /* menu de navegacion */
 
 
@@ -81,19 +83,6 @@ nav a:active{
 }
 
 .posters a img{
-    width: 100%;
-}
-.PeliculasXGenero {
-    width: 100%;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-}
-.PeliculasXGenero a{
-    max-width: 70%;
-}
-.PeliculasXGenero a img{
     width: 100%;
 }
 

@@ -61,9 +61,10 @@ nav a:active{
 }
 .contenido h1{
     color: white;
-    margin-top: 70px;
+  margin: 70px;
     
 }
+
 .contenido h1:hover{
     color: red;
 }
@@ -94,24 +95,15 @@ nav a:active{
     max-width: 70%;
 }
 .PeliculasXGenero a img{
-    width: 100%;
+    width: 50%;
+    height: 50%;
+   
+
 }
 
-.SeriesXGenero {
-    width: 100%;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-}
-.SeriesXGenero a{
-    max-width: 70%;
-}
-.SeriesXGenero a img{
-    width: 100%;
-}
 
 /* contenidos */
+
 
 /* tablet */
 @media only screen and (max-width: 768px){
@@ -149,6 +141,35 @@ nav a:active{
 /* tablet */
 
 
+/* moobile */
+@media only screen and (max-width: 420px){
+
+    .movile{
+        display: none;
+        
+    } 
+
+    .banner h1{
+        text-align: center;
+    }
+
+    .contenido .posters a{
+        width: 100%;
+    }
+
+    .posters a{
+        max-width: 100%;
+    }
+    
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr ;    
+    }
+
+}
+
 
 /* moobile */
 @media(max-width:600px){
@@ -164,6 +185,7 @@ nav a:active{
      .movile{
             display: none;
         } 
+    
     
     .posters a{
             min-width: 100%;

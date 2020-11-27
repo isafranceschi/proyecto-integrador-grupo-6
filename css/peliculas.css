@@ -169,12 +169,31 @@ footer p{
     .posters a{
         max-width: 100%;
     }
-    .series {
+    .peliculas1 {
         width: 100%;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: 1fr 1fr 1fr ;   
+        grid-template-columns: 1fr 1fr;   
     }
+    .peliculas2 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;   
+    }
+    .peliculas3 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;   
+    }
+    .posters {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr ;    
+    }
+
     .posters {
         width: 100%;
         display: grid;
@@ -206,11 +225,23 @@ footer p{
     .posters a{
         max-width: 100%;
     }
-    .series {
+    .peliculas1 {
         width: 100%;
         display: grid;
         justify-content: space-between;
-        grid-template-columns: 1fr;   
+        grid-template-columns: 1fr 1fr;   
+    }
+    .peliculas2 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;   
+    }
+    .peliculas3 {
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;   
     }
     .posters {
         width: 100%;
