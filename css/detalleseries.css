@@ -109,7 +109,9 @@ width: 80%;
     width: 100%;
 }
 
-
+.buttonfavs{
+    background-color:green;
+}
 /* contenidos */
 
 footer{

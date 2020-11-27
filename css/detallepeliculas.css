@@ -121,6 +121,9 @@ width: 80%;
 
 
 /* contenidos */
+.buttonfavs{
+    background-color:green;
+}
 
 footer{
     margin-top: 100px;

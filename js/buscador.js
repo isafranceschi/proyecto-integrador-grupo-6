@@ -1,5 +1,4 @@
-window.onload = function(){ 
-  var queryString = location.search
+var queryString = location.search
 
 queryString = new URLSearchParams (queryString)
 
@@ -20,14 +19,14 @@ if (busqueda != null) {
     var ul = document.querySelector('div.ul')
     var li = ""
     //parte fija img
-   var urlIMG = "https://image.tmdb.org/t/p/original/"
+   
    //recorro el array
 for (var i=0; i < arrayDeSeries.length; i++){
   if (arrayDeSeries[i].poster_path != null){
     li = "<li>"
       li += "<a href='detalle.html?idPelicula="+arrayDeSeries[i].id+"'>"
       li += "<p>" + arrayDeSeries[i].title + "</p>"
-      li += "<img src = '" + urlImg + arrayDeSeries[i].poster_path + "' style='width:300px;'>"
+      
       li += "</a>"
       li += "</li>"
       ul.innerHTML += li
@@ -119,14 +118,14 @@ fetch("https://api.themoviedb.org/3/search/tv?api_key=a3f9467ae2c29b7ede89cca0ca
      console.log("Error: " + error);
    })
  //esto es para que cuando busques, si escribis 2 caracteres, arroje error
-   document.querySelector("form.buscar").onsubmit = function(e) {
-   var busco = document.buscar.buscador.value;
-   console.log(busco);
-   // var buscadorInput = document.querySelector("input")
-   if (busco.length <= 3) {
-     e.preventDefault()
-UIkit.notification({message: 'Ingrese mas de tres caracteres', status: 'warning',  timeout: 2000})
- }else {
- }
- }
-}}
+//    document.querySelector("form.buscar").onsubmit = function(e) {
+//    var busco = document.buscar.buscador.value;
+//    console.log(busco);
+//    // var buscadorInput = document.querySelector("input")
+//    if (busco.length <= 3) {
+//      e.preventDefault()
+// UIkit.notification({message: 'Ingrese mas de tres caracteres', status: 'warning',  timeout: 2000})
+//  }else {
+//  }
+//  }
+}

@@ -9,12 +9,15 @@
       var array = data.results        // una se llama array que va a estar compuesta por data.resultados//
       var ul = document.querySelector('.ul-populares') // y la var ul es donde selecciono la clase ".ul-populares"//
       // console.log(array)
-      for (serie of array) {
-        var li = `
-       <a href="detalleSerie.html?id=`+ serie.id +`">
+
+      for (pelis of array) {    //el nombre que le pongo a lo que me trae/
+        var li = 
+        //arranca la vinculacion de loq ue trae la api con la pagina de detalle de cada poster//
+        `   
+       <a href="detalleSerie.html?id=`+ pelis.id +`">    
           <li>
               <div class="uk-panel">
-                  <img src="https://image.tmdb.org/t/p/original`+serie.poster_path+`" alt="">
+                  <img src="https://image.tmdb.org/t/p/original`+pelis.poster_path+`" alt="">
 
               </div>
           </li>
