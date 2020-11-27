@@ -1,13 +1,13 @@
-window.onload = function(){
+ window.onload = function(){      // esta funcion lo que kace es que cargue toda la pagina priemro//
 
   // POPULARES
-  fetch("https://api.themoviedb.org/3/tv/popular?api_key=a3f9467ae2c29b7ede89cca0ca14d893&language=en-US&page=1")
-    .then(function(response){
+  fetch("https://api.themoviedb.org/3/tv/popular?api_key=a3f9467ae2c29b7ede89cca0ca14d893&language=en-US&page=1")   //primer paso fech traigo la info de la api"
+    .then(function(response){       //uso 2 then el primero es para "tranducir la info a un idioma leeible--> "jason"//
       return  response.json();
     })
-    .then(function(data){
-      var array = data.results
-      var ul = document.querySelector('.ul-populares')
+    .then(function(data){            //a la funcion data le doy dos variables
+      var array = data.results        // una se llama array que va a estar compuesta por data.resultados//
+      var ul = document.querySelector('.ul-populares') // y la var ul es donde selecciono la clase ".ul-populares"//
       // console.log(array)
       for (serie of array) {
         var li = `

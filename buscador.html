@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/buscador.css">
+    <link rel="stylesheet" href="./css/uikit-rtl.css">
+    <link rel="stylesheet" href="./css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="./css/uikit.css">
+    <link rel="stylesheet" href="./css/uikit.min.css">
+  </head>
+  <body>
+
+    <!-- Header-->
+
+         <!-- Aca esta todo el header con el logo y los menus para navegar por la pagina -->
+            <header>
+                <div class="logo">
+                 <H1> Flick</H1>  
+                </div>
+                <nav>
+                    <a href="index.html">Inicio</a>
+                    <a href="Genero.html">Generos</a>
+                    <a href="Series.html">Series</a>
+                    <a href="peliculas.html">Peliculas</a>
+                    <a href="buscador.html">Buscar</a> <!-- Link a la pagina Busqueda -->
+                    <a href="">Mi lista</a>
+                </nav>
+                <div class="navCelu"> 
+                    <img class="hamburguesa" src="./Img/hamburg.jpg" alt="">
+                </div>
+            </header>
+            <!-- Header-->
+
+<div class="titulo">
+  <h1>Buscador</h1>
+  <p> Bsperamos que encuentres lo que estas buscando </p>
+</div>
+
+<div class="contenedorPadre">
+  <div class="buscador">
+
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <div class="uk-navbar-item">
+                <form method="GET" action="buscador.html" class="uk-search uk-search-navbar">
+                    <span uk-search-icon></span>
+                    <input class="uk-search-input busqueda" type="search" placeholder="" name="busqueda">
+                    <!-- <button type="submit" name="button">Buscar</button> -->
+
+                    <button class="searchbutton" type="submit" name="button">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+  </div>
+</div>
+
+<div class="peliculas">
+  <div class="posterPeli">
+    <ul> </ul>
+  </div>
+  <div class="infoDePeli">
+    <ul> </ul>
+  </div>
+</div>
+
+
+<!-- Footer-->
+
+<footer>
+  <div class="logo">
+    <img src="./img/293x302-powered-by-square-green-3ee4814bb59d8260d51efdd7c124383540fc04ca27d23eaea3a8c87bfa0f388d.png" alt="">
+  </div>
+
+<p>Rendo</p>
+<p>Franceschini</p>
+<p>Gotz</p>
+
+</footer>
+
+<!-- Footer-->
+
+
+<script type="text/javascript" src="./js/buscador.js"></script>
+<script src="./js/uikit.min.js"></script>
+<script src="./js/uikit-icons.min.js"></script>
+<script src="./js/uikit-icons.js"></script>
+<script src="./js/uikit.js"></script>
+  </body>
+</html>

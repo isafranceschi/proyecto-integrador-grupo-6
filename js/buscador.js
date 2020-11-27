@@ -1,4 +1,5 @@
-var queryString = location.search
+window.onload = function(){ 
+  var queryString = location.search
 
 queryString = new URLSearchParams (queryString)
 
@@ -39,7 +40,7 @@ for (var i=0; i < arrayDeSeries.length; i++){
 })
 
 }
-})
+
 
 //todo esto esta explicado en otros javas.
 window.onload = function() {
@@ -128,4 +129,4 @@ UIkit.notification({message: 'Ingrese mas de tres caracteres', status: 'warning'
  }else {
  }
  }
-}
+}}
