@@ -33,7 +33,25 @@ window.onload = function () {
     })
 
    
+  //Agregar a mi Lista
+  let botonMiLista = document.querySelectorAll('.buttonfavs')
+  let arrayMiListaDeFavoritas;
+  //console.log(botonMiLista)
+  botonMiLista.forEach(pelicula => {
+      pelicula.addEventListener('click', function(e){
+          e.preventDefault()
+          let miListadePeliculas = localStorage.getItem('miLista')
+          if(miListadePeliculas == null){
+              arrayMiListaDeFavoritas = [];
+          }else{
+              arrayMiListaDeFavoritas = JSON.parse(miListadePeliculas)
+          }
+          arrayMiListaDeFavoritas.push(JSON.parse(this.id))
+          localStorage.setItem('miLista', JSON.stringify(arrayMiListaDeFavoritas))
 
+      } )
+
+  });
 
     
 }

@@ -30,7 +30,39 @@
             <a href="buscador.html">Search</a> <!-- Link a la pagina Busqueda -->
             <a href="favoritos.html">Mi lista</a>
         </nav>
+        <a href="#modal-sections" uk-toggle>  <button class="buttoncelu">Log In</button>  </a>
 
+<div id="modal-sections" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title"> Welcome to Flick!</h2>
+        </div>
+        <div class="uk-modal-body">
+          <form>
+
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon" uk-icon="icon: user"></span>
+                    <input class="uk-input" type="text">
+                </div>
+            </div>
+        
+            <div class="uk-margin">
+                <div class="uk-inline">
+                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                    <input class="uk-input" type="text">
+                </div>
+            </div>
+        
+        </form>
+        </div>
+        <div class="uk-modal-footer uk-text-right">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Subscribe</button>
+        </div>
+    </div>
+</div>
         <li  class="li-line">
             <div class="navCelu"> 
                 <img class="hamburguesa" src="./Img/hamburg.jpg" alt="">
@@ -152,6 +184,9 @@
 <p>Rendo</p>
 <p>Franceschini</p>
 <p>Gotz</p>
+<a href="https://www.facebook.com" uk-icon="icon: facebook"></a>
+<a href="https://twitter.com/?lang=es" uk-icon="icon: twitter"></a>
+<a href="https://www.instagram.com" uk-icon="icon: instagram"></a>
 
   </footer>
   
