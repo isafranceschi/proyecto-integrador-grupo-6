@@ -14,7 +14,7 @@ window.addEventListener('load', function(){
     console.log(SeriesXGenero);
   
        for (var i = 0; i < SeriesXGenero.length; i++) {
-      document.querySelector(".SeriesXGenero").innerHTML += '<a class="mobile " ><img src="https://image.tmdb.org/t/p/original/' + SeriesXGenero[i].poster_path + '" alt=""> </a>'
+      document.querySelector(".SeriesXGenero").innerHTML += `<a href='detalleSerie.html?id=${SeriesXGenero[i].id}' class='mobile ' ><img src='https://image.tmdb.org/t/p/original/`+SeriesXGenero[i].poster_path + `' alt='${SeriesXGenero[i].title}'></a>`
     }
   })
 })
